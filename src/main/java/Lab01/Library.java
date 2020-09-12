@@ -5,7 +5,11 @@ package Lab01;
 
 public class Library {
 	public static void main(String arg[]) {
-		System.out.println("hello");
+		Library lib = new Library();
+		if(lib.someLibraryMethod()) {
+			System.out.println("hello");
+		}
+		
 	}
     public boolean someLibraryMethod() {
         return true;
